@@ -6,4 +6,8 @@ class InputView {
     fun readPurchaseProductAndAccount(): String {
         return Console.readLine()
     }
+
+    fun readMembershipDiscountChoice(): String{
+        return Console.readLine()
+    }
 }
