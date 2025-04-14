@@ -10,4 +10,12 @@ class InputView {
     fun readMembershipDiscountChoice(): String{
         return Console.readLine()
     }
+
+    fun readContinueChoice(): String {
+        return Console.readLine()
+    }
+
+    fun readYesOrNo(): String {
+        return Console.readLine()
+    }
 }
