@@ -1,6 +1,5 @@
 package store.reader
 
-import camp.nextstep.edu.missionutils.Console
 import store.domain.Promotions
 import store.parser.PromotionParser
 import java.io.File
