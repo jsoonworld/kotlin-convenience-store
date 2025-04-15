@@ -4,7 +4,7 @@ class PromotionName private constructor(private val value: String?) {
 
     fun isPresent(): Boolean = value != null && value != "null"
 
-    override fun toString(): String = value ?: ""
+    override fun toString(): String = value.orEmpty()
 
     companion object {
         fun from(raw: String?): PromotionName = PromotionName(raw?.takeIf { it != "null" && it.isNotBlank() })
